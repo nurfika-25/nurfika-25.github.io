@@ -1,0 +1,54 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f8f9fa; 
+}
+
+.hero { 
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0); 
+    padding: 80px 0; 
+    border-radius: 0 0 30px 30px; 
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;     
+    border-radius: 50%;     
+    border: 5px solid white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-project { 
+    border: none; 
+    border-radius: 15px; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.card-project:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+}
+
+.btn-pink { 
+    background-color: #ec4899; 
+    color: white; 
+    border-radius: 20px; 
+    border: none; 
+}
+
+.btn-pink:hover { 
+    background-color: #db2777; 
+    color: white; 
+}
+
+/* Footer dengan tampilan warna pink senada dengan Hero section */
+footer {
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+    padding: 25px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+footer p {
+    color: #880e4f !important;
+    font-weight: 600;
+}
